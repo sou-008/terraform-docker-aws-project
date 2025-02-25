@@ -1,0 +1,27 @@
+# Ignore node_modules for Express
+frontend-express/node_modules/
+
+# Ignore Python virtual environments for Flask
+backend-flask/env/
+backend-flask/venv/
+
+# Ignore Docker-related files
+**/Dockerfile*
+**/.dockerignore
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform's .terraform folder
+.terraform/
+
+# Ignore log files
+*.log
+
+# Ignore IDE files (for example, VS Code)
+.vscode/
+
+# Ignore OS-specific files (macOS, Windows)
+.DS_Store
+Thumbs.db
